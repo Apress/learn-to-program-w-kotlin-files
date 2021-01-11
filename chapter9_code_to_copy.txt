@@ -4,7 +4,7 @@ package pfb.files
 import java.nio.file.Files
 import java.nio.file.Paths
 
-fun main(args: Array<String>) {
+fun main() {
     val helloWorld = Paths.get("files/BirdListWithGaps.txt")
     val sightings = Files.readAllLines(helloWorld)
 
@@ -27,7 +27,7 @@ package pfb.files
 import java.nio.file.Files
 import java.nio.file.Paths
 
-fun main(args: Array<String>) {
+fun main() {
     val helloWorld = Paths.get("files/HelloWorldTwice.txt")
     val strings = Files.readAllLines(helloWorld)
     println("strings = $strings")
@@ -40,7 +40,7 @@ package pfb.files
 import java.nio.file.Files
 import java.nio.file.Paths
 
-fun main(args: Array<String>) {
+fun main() {
     val file = Paths.get("files/BirdList.txt")
     val sightings = Files.readAllLines(file)
 
@@ -60,7 +60,7 @@ package pfb.files
 import java.nio.file.Files
 import java.nio.file.Paths
 
-fun main(args: Array<String>) {
+fun main() {
     val file = Paths.get("files/BirdListWithGaps.txt")
     val sightings = Files.readAllLines(file)
 
@@ -83,7 +83,7 @@ package pfb.files
 import java.nio.file.Files
 import java.nio.file.Paths
 
-fun main(args: Array<String>) {
+fun main() {
     val original = Paths.get("files/BirdListWithGapsAndCaps.txt")
     val sightings = Files.readAllLines(original)
 
